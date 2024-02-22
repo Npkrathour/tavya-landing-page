@@ -408,7 +408,7 @@ p {
   font-weight: 600;
 }
 .tabs-section .col-lg-2 {
-  padding-left: 50px;
+  padding-left: 65px;
   z-index: 1;
 }
 .our-services h1 {
@@ -580,4 +580,28 @@ p {
 .acccesories-inner-details p {
   color: #000000;
   /* text-shadow: 1px 1px #ffffff; */
+}
+/* =============================padding top bottom============= */
+.padding-top-bottom {
+  padding: 90px 0px;
+}
+/* ===============gif animation============= */
+.animated-images {
+  position: relative;
+  animation: mymove 4s infinite;
+}
+
+@keyframes mymove {
+  0% {
+    top: 0px;
+  }
+  25% {
+    top: 100px;
+  }
+  75% {
+    top: 50px;
+  }
+  100% {
+    top: 100px;
+  }
 }

@@ -1,3 +1,13 @@
+AOS.init({
+  offset: 120,
+  delay: 0,
+  duration: 1000,
+  easing: "ease",
+  once: false,
+  mirror: false,
+  anchorPlacement: "top-bottom",
+});
+
 $(document).ready(function () {
   // Set a delay of 3 seconds (3000 milliseconds)
   setTimeout(function () {
